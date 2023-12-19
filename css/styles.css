@@ -1,0 +1,96 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+}
+.container {
+  max-width: 1440px; /* Задайте бажану максимальну ширину сторінки */
+  max-height: 600px;
+  margin: 0 auto; /* Центруємо сторінку по горизонталі */
+}
+
+.title-1 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.web-wrapp {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-container {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Body Medium */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  text-decoration: none;
+
+  /* Отримуємо рівномірний інтервал між елементами меню */
+}
+
+/* Обнулення внутрішніх відступів та вирівнювання тексту в списку */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Вирівнювання тексту у списку */
+li {
+  line-height: 1;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.address-style {
+  color: var(--SLATE, #434455);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  margin: 0 40px;
+}
+
+/* Змініть колір та заберіть підкреслення для всіх посилань всередині .address-style */
+.address-style a {
+  color: var(--SLATE, #434455);
+  text-decoration: none;
+}
