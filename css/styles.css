@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 
-.title-1 {
+.title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
@@ -14,54 +14,58 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
-
-.web-wrapp {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
+/* Стилі для логотипу */
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 5px;
-
-  /* Додавання відступу між "Web" та "Studio" */
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
-.web-wrapp-1 {
-  color: #2e2f42;
-  /* Заміна змінної кольору для span відповідно до опису */
+.logo span {
 }
 
-/* Стилі для навігації */
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.navigation-container {
+.nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address .contact-link a {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  color: #434455;
+  transition: color 0.3s ease;
   text-decoration: none;
-  margin-left: 40px;
-  transition: color 0.3s ease-in-out;
 }
 
-.navigation-container:hover,
-.navigation-container:focus {
-  color: #404bbf;
-  /* Зміна кольору при наведенні та фокусі */
+.address .contact-link a:hover,
+.address .contact-link a:focus {
+  color: #404bbf !important;
 }
 
-/* Обнулення внутрішніх відступів та вирівнювання тексту в списку */
 ul {
   margin: 0;
   padding: 0;
