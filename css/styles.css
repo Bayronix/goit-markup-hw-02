@@ -5,9 +5,6 @@ body {
   padding-right: 10px;
 }
 
-/* Решта стилів залишаєте без змін */
-
-/* Загальні стилі для текстових блоків */
 .text-block {
   overflow: hidden;
   max-width: 100%;
@@ -15,34 +12,35 @@ body {
 
 .title-1 {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .web-wrapp {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 5px;
+  /* Додавання відступу між "Web" та "Studio" */
 }
 
-.header-1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  margin-left: 152px;
-  margin-right: 152px;
+.web-wrapp-1 {
+  color: #2e2f42;
+  /* Заміна змінної кольору для span відповідно до опису */
 }
 
+/* Стилі для навігації */
 .navigation {
   display: flex;
   align-items: center;
@@ -53,11 +51,18 @@ body {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  margin-left: 40px;
   text-decoration: none;
+  margin-left: 40px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navigation-container:hover,
+.navigation-container:focus {
+  color: #404bbf;
+  /* Зміна кольору при наведенні та фокусі */
 }
 
 /* Обнулення внутрішніх відступів та вирівнювання тексту в списку */
@@ -95,6 +100,7 @@ li {
   color: var(--SLATE, #434455);
   text-decoration: none;
 }
+
 /* Main-content */
 /* Section-1 */
 .main-logo {
@@ -129,6 +135,7 @@ li {
   width: fit-content;
   margin: 48px auto 188px;
 }
+
 /* Section-2 */
 .Information {
   margin-left: 152px;
@@ -158,6 +165,7 @@ li {
   margin-bottom: 120px;
   margin-right: 24px;
 }
+
 /* Section-3 */
 .Team {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -167,11 +175,13 @@ li {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 40px;
+  /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-top: 120px;
 }
+
 .Team-section {
   border: 2px solid #f4f4fd;
   background-color: #f4f4fd;
@@ -202,6 +212,7 @@ li {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
+
 .Portfolio {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -211,7 +222,8 @@ li {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 40px;
+  /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -225,17 +237,18 @@ li {
 }
 
 .Start-apps {
-  width: calc(
-    33.33% - 20px
-  ); /* Розрахована ширина для 3-х елементів в ряду і з відступом між ними */
+  width: calc(33.33% - 20px);
+  /* Розрахована ширина для 3-х елементів в ряду і з відступом між ними */
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* Відстань між зображенням та текстом */
+  gap: 20px;
+  /* Відстань між зображенням та текстом */
   margin-right: 0 24px;
 }
+
 /* Footer */
 .title-2 {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -265,11 +278,13 @@ li {
   color: #fff;
   padding: 20px;
 }
+
 .Studio {
   color: var(--CLOUD, #f4f4fd);
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 21px;
+  /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 1080px;
@@ -283,7 +298,8 @@ li {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   letter-spacing: 0.32px;
   margin-left: 152px;
   margin-right: 1080px;
