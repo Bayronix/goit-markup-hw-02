@@ -103,38 +103,37 @@ li {
 
 /* Main-content */
 /* Section-1 */
-.main-logo {
-  padding: 20px;
-  border: 2px solid #2e2f42;
+/* Стилі для секції */
+.section {
   background-color: #2e2f42;
-  color: #fff;
 }
 
-.main-name {
-  color: var(--WHITE, #fff);
-  text-align: center;
-
-  /* Header 1 */
+/* Стилі для заголовка в першій секції */
+.section-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
   letter-spacing: 0.02em;
-  margin-top: 188px;
-  margin-bottom: 48px;
+  color: #ffffff;
 }
 
-.main-button {
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: flex;
-  padding: 16px 32px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: fit-content;
-  margin: 48px auto 188px;
+/* Стилі для кнопки в першій секції */
+.section-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Додаємо анімацію для плавного переходу кольору фону */
+}
+
+/* Стилі для ховера та фокусу на кнопці */
+.section-button:hover,
+.section-button:focus {
+  background-color: #404bbf;
 }
 
 /* Section-2 */
