@@ -111,14 +111,15 @@ li {
 }
 
 .main-name {
-  color: #ffffff;
+  color: var(--WHITE, #fff);
   text-align: center;
-  font-family: Roboto;
+
+  /* Header 1 */
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.02em;
   margin-top: 188px;
   margin-bottom: 48px;
 }
