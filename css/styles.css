@@ -216,11 +216,11 @@ li {
 
 /* Footer */
 .title-2 {
-  color: #404bbf;
-  font-family: "Roboto", sans-serif;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
