@@ -3,48 +3,41 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-body,
-ul {
-  margin: 0;
-  padding: 0;
-}
 
-/* Header styles */
-.header-1 {
-  background-color: #2e2f42;
-  padding: 10px;
-}
-
-/* Logo styles */
-.logo-link {
-  text-decoration: none;
+.title {
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Стилі для логотипу */
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo {
   color: #2e2f42;
-}
-
-/* Navigation styles */
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-decoration: none;
 }
 
 .nav-link {
-  text-decoration: none;
-  color: #2e2f42;
-  font-weight: 500;
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Body Medium */
+  font-family: Roboto;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -52,24 +45,54 @@ ul {
   color: #404bbf;
 }
 
-/* Address styles */
 .address {
   font-style: normal;
-  color: #434455;
 }
 
-/* Contact link styles */
-.contact-link a {
-  text-decoration: none;
-  color: #434455;
+.address .contact-link a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 0.3s ease;
+  text-decoration: none;
 }
 
-.contact-link a:hover,
-.contact-link a:focus {
-  color: #404bbf;
+.address .contact-link a:hover,
+.address .contact-link a:focus {
+  color: #404bbf !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Вирівнювання тексту у списку */
+li {
+  line-height: 1;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.address-style {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.address-style a {
+  color: var(--SLATE, #434455);
+  text-decoration: none;
 }
 
 /* Стилі для заголовка в першій секції */
@@ -200,24 +223,54 @@ ul {
 }
 
 /* Footer */
-/* Ваші стилі для інших частин вашого документа */
-
-.footer {
-  background-color: #2e2f42;
-  padding: 20px; /* Додайте відступи, які вам необхідні */
-  color: #f4f4fd;
-}
-
-.footer .title-2 {
-  color: #f4f4fd; /* або використовуйте вашу CSS-змінну */
+.title-2 {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
-.footer .logo {
-  color: #f4f4fd; /* або використовуйте вашу CSS-змінну */
+.web-wrapp-1 {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
-.footer .footer-paragraph {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.header-2 {
+  border: 2px solid #2e2f42;
+  background-color: #2e2f42;
+  color: #fff;
+}
+
+.Studio {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.Text-block-2 {
+  color: var(--CLOUD, #f4f4fd);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 0.32px;
+  margin-left: 152px;
+  margin-right: 1080px;
 }
