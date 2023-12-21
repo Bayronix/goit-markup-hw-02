@@ -121,14 +121,13 @@ li {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Додаємо анімацію для плавного переходу кольору фону та тексту */
+  transition: background-color 0.3s ease; /* Додаємо анімацію для плавного переходу кольору фону */
 }
 
 /* Стилі для ховера та фокусу на кнопці */
 .section-button:hover,
 .section-button:focus {
   background-color: #404bbf;
-  color: #ffffff; /* Додавання коліру тексту при ховері та фокусі */
 }
 
 /* Section-2 */
