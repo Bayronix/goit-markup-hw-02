@@ -67,8 +67,6 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  align-items: flex-start;
 }
 
 /* Вирівнювання тексту у списку */
@@ -90,7 +88,6 @@ li {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  margin: 0 40px;
 }
 
 .address-style a {
@@ -124,18 +121,18 @@ li {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Додаємо анімацію для плавного переходу кольору фону */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Додаємо анімацію для плавного переходу кольору фону та тексту */
 }
 
 /* Стилі для ховера та фокусу на кнопці */
 .section-button:hover,
 .section-button:focus {
   background-color: #404bbf;
+  color: #ffffff; /* Додавання коліру тексту при ховері та фокусі */
 }
 
 /* Section-2 */
-/* Стилі для заголовка в списку */
-/* Стилі для заголовка в списку */
+
 .section-list-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -218,18 +215,14 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 32px;
 }
 
 .Start-apps {
   width: calc(33.33% - 20px);
   /* Розрахована ширина для 3-х елементів в ряду і з відступом між ними */
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   /* Відстань між зображенням та текстом */
-  margin-right: 0 24px;
 }
 
 /* Footer */
@@ -252,7 +245,6 @@ li {
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-left: 152px;
 }
 
 .header-2 {
@@ -269,7 +261,6 @@ li {
   /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-right: 1080px;
 }
 
 .Text-block-2 {
