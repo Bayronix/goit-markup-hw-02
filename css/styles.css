@@ -45,11 +45,33 @@ body {
   color: #404bbf;
 }
 
+/* Стилі для тегу address в хедері */
 .address {
   font-style: normal;
 }
 
-.address .contact-link a {
+/* Стилі для посилань у списку в тегу address */
+.address a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 0.3s ease; /* Плавний перехід при зміні кольору */
+  text-decoration: none;
+}
+
+/* Зміна кольору при наведенні мишкою */
+.address a:hover {
+  color: #404bbf;
+}
+
+/* Зміна кольору при фокусі (кліку) */
+.address a:focus {
+  color: #404bbf;
+}
+
+/* Стилі для другого посилання у списку в тегу address (використовуються ті самі класи) */
+.address li:last-child a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -58,41 +80,12 @@ body {
   text-decoration: none;
 }
 
-.address .contact-link a:hover,
-.address .contact-link a:focus {
-  color: #404bbf !important;
+.address li:last-child a:hover {
+  color: #404bbf;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* Вирівнювання тексту у списку */
-li {
-  line-height: 1;
-}
-
-.address {
-  display: flex;
-  align-items: center;
-  line-height: 1;
-}
-
-.address-style {
-  color: var(--SLATE, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-.address-style a {
-  color: var(--SLATE, #434455);
-  text-decoration: none;
+.address li:last-child a:focus {
+  color: #404bbf;
 }
 
 /* Стилі для заголовка в першій секції */
