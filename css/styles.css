@@ -118,7 +118,10 @@ li {
 }
 
 /* Стилі для ховера та фокусу на кнопці */
-.section-button:hover,
+.section-button:hover {
+  background-color: #404bbf;
+  color: #ffffff; /* Додавання коліру тексту при ховері та фокусі */
+}
 .section-button:focus {
   background-color: #404bbf;
   color: #ffffff; /* Додавання коліру тексту при ховері та фокусі */
@@ -201,7 +204,7 @@ li {
   font-weight: 700;
   line-height: 40px;
   /* 111.111% */
-  letter-spacing: 0.72px;
+  letter-spacing: 1.11;
   text-transform: capitalize;
 }
 
