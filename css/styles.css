@@ -94,8 +94,11 @@ li {
   color: var(--SLATE, #434455);
   text-decoration: none;
 }
-
+/* Section-1 */
 /* Стилі для заголовка в першій секції */
+.section {
+  background-color: #2e2f42;
+}
 .section-title {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
