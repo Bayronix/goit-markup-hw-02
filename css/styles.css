@@ -3,41 +3,48 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
-.title {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
+body,
+ul {
+  margin: 0;
+  padding: 0;
 }
-/* Стилі для логотипу */
-.logo {
+
+/* Header styles */
+.header-1 {
+  background-color: #2e2f42;
+  padding: 10px;
+}
+
+/* Logo styles */
+.logo-link {
+  text-decoration: none;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.logo {
   color: #2e2f42;
-  text-decoration: none;
+}
+
+/* Navigation styles */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-link {
-  color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
   text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -45,46 +52,23 @@ body {
   color: #404bbf;
 }
 
-/* Стилі для тегу address в хедері */
+/* Address styles */
 .address {
   font-style: normal;
+  color: #434455;
 }
 
-/* Стилі для посилань у списку в тегу address */
-.address a {
+/* Contact link styles */
+.contact-link a {
+  text-decoration: none;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
-  transition: color 0.3s ease; /* Плавний перехід при зміні кольору */
-  text-decoration: none;
 }
 
-/* Зміна кольору при наведенні мишкою */
-.address a:hover {
-  color: #404bbf;
-}
-
-/* Зміна кольору при фокусі (кліку) */
-.address a:focus {
-  color: #404bbf;
-}
-
-/* Стилі для другого посилання у списку в тегу address (використовуються ті самі класи) */
-.address li:last-child a {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  transition: color 0.3s ease;
-  text-decoration: none;
-}
-
-.address li:last-child a:hover {
-  color: #404bbf;
-}
-
-.address li:last-child a:focus {
+.contact-link a:hover,
+.contact-link a:focus {
   color: #404bbf;
 }
 
