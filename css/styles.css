@@ -223,26 +223,24 @@ li {
 }
 
 /* Footer */
+/* Ваші стилі для інших частин вашого документа */
+
 .footer {
   background-color: #2e2f42;
+  padding: 20px; /* Додайте відступи, які вам необхідні */
+  color: #f4f4fd;
+}
+
+.footer .title-2 {
+  color: #f4f4fd; /* або використовуйте вашу CSS-змінну */
+  text-decoration: none;
 }
 
 .footer .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.footer .logo span {
-  color: #f4f4fd;
+  color: #f4f4fd; /* або використовуйте вашу CSS-змінну */
 }
 
 .footer .footer-paragraph {
   line-height: 1.5;
-  color: var(--your-css-variable, #f4f4fd);
   letter-spacing: 0.02em;
 }
