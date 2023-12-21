@@ -6,7 +6,7 @@ body {
 
 .title {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: "Raleway";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
