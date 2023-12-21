@@ -121,17 +121,19 @@ li {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Додаємо анімацію для плавного переходу кольору фону */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Додаємо анімацію для плавного переходу кольору фону та тексту */
 }
 
 /* Стилі для ховера та фокусу на кнопці */
 .section-button:hover,
 .section-button:focus {
   background-color: #404bbf;
+  color: #ffffff; /* Додавання коліру тексту при ховері та фокусі */
 }
 
 /* Section-2 */
-
+/* Стилі для заголовка в списку */
+/* Стилі для заголовка в списку */
 .section-list-item-title {
   font-weight: 500;
   font-size: 20px;
