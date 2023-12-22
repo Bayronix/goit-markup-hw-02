@@ -92,7 +92,7 @@ body {
 }
 
 /* Стилі для кнопки в секції */
-.section_button_wrap {
+.section-button-wrap {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -104,8 +104,8 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.section_button_wrap:hover,
-.section_button_wrap:focus {
+.section-button-wrap:hover,
+.section-button-wrap:focus {
   background-color: #404bbf;
 }
 
