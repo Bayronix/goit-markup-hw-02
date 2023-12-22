@@ -68,8 +68,8 @@ body {
   font-style: normal;
 }
 
-.address_wrap_add:hover,
-.address_wrap_add:focus {
+.address-wrap-add:hover,
+.address-wrap-add:focus {
   color: #404bbf;
 }
 
