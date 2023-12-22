@@ -116,7 +116,10 @@ li {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.section_button_wrap:hover,
+.section_button_wrap:hover {
+  background-color: #404bbf;
+}
+
 .section_button_wrap:focus {
   background-color: #404bbf;
 }
