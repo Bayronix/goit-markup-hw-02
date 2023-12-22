@@ -63,9 +63,6 @@ body {
 }
 
 /* Вирівнювання тексту у списку */
-li {
-  line-height: 1;
-}
 
 .address-style {
   font-style: normal;
