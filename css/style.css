@@ -29,15 +29,13 @@ body {
 
 .nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Body Medium */
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover,
@@ -48,13 +46,14 @@ body {
 .address_wrap_add {
   font-style: normal;
 }
+
 .link_adress {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: color 0.3s ease;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .link_adress:hover,
@@ -64,8 +63,8 @@ body {
 
 /* Вирівнювання тексту у списку */
 
-.address_wrap_add {
-  font-style: normal;
+.address_wrap_add li {
+  line-height: 1;
 }
 
 .address_wrap_add:hover {
