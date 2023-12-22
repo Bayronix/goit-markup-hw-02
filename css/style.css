@@ -48,7 +48,7 @@ body {
 .address_wrap_add {
   font-style: normal;
 }
-.contact-link {
+.link_adress {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -57,22 +57,22 @@ body {
   text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.link_adress:hover,
+.link_adress:focus {
   color: #404bbf;
 }
 
 /* Вирівнювання тексту у списку */
 
-.address-style {
+.link_adress {
   font-style: normal;
 }
 
-.address-style:hover {
+.link_adress:hover {
   color: #404bbf;
 }
 
-.address-style:focus {
+.link_adress:focus {
   color: #404bbf;
 }
 
