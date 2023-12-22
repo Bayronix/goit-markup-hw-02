@@ -48,7 +48,7 @@ body {
 .address_wrap_add {
   font-style: normal;
 }
-.contact-link a {
+.contact-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
