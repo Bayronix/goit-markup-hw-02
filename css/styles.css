@@ -109,10 +109,11 @@ li {
   text-align: center;
   letter-spacing: 0.02em;
   font-weight: 700;
+  color: #ffffff;
 }
 
 /* Стилі для кнопки в секції */
-.section-button {
+.section_button_wrap {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -124,11 +125,9 @@ li {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Стилі для ховера та фокусу на кнопці */
-.section-button:hover,
-.section-button:focus {
+.section_button_wrap:hover,
+.section_button_wrap:focus {
   background-color: #404bbf;
-  color: #ffffff;
 }
 
 /* Section-2 */
@@ -187,7 +186,7 @@ li {
   background: var(--WHITE, #fff);
 }
 
-.Portfolio {
+.Portfolio_header {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
 
