@@ -62,12 +62,6 @@ body {
   color: #404bbf;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 /* Вирівнювання тексту у списку */
 li {
   line-height: 1;
