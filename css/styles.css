@@ -45,7 +45,7 @@ body {
   color: #404bbf;
 }
 
-.address_wrap_add {
+.wrap_add {
   font-style: normal;
 }
 .contact-link a {
@@ -57,8 +57,8 @@ body {
   text-decoration: none;
 }
 
-.address_wrap_add .contact-link a:hover,
-.address_wrap_add .contact-link a:focus {
+.wrap_add .contact-link a:hover,
+.wrap_add .contact-link a:focus {
   color: #404bbf;
 }
 
