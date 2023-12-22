@@ -42,7 +42,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: #404bbf !important;
 }
 
 .address_wrap_add {
@@ -59,7 +59,7 @@ body {
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: #404bbf !important;
 }
 
 /* Вирівнювання тексту у списку */
@@ -70,7 +70,7 @@ body {
 
 .address_wrap_add:hover,
 .address_wrap_add:focus {
-  color: #404bbf;
+  color: #404bbf !important;
 }
 
 /* Section-1 */
@@ -106,7 +106,7 @@ body {
 
 .section_button_wrap:hover,
 .section_button_wrap:focus {
-  background-color: #404bbf;
+  background-color: #404bbf !important;
 }
 
 /* Section-2 */
