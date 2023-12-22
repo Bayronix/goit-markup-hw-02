@@ -40,7 +40,9 @@ body {
   text-decoration: none;
 }
 
-.nav-link:hover,
+.nav-link:hover {
+  color: #404bbf;
+}
 .nav-link:focus {
   color: #404bbf;
 }
@@ -53,11 +55,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: color 0.3s ease;
   text-decoration: none;
 }
 
-.cont-link:hover,
+.cont-link:hover {
+  color: #404bbf;
+}
 .cont-link:focus {
   color: #404bbf;
 }
@@ -68,7 +71,9 @@ body {
   font-style: normal;
 }
 
-.address-wrap-add:hover,
+.address-wrap-add:hover {
+  color: #404bbf;
+}
 .address-wrap-add:focus {
   color: #404bbf;
 }
@@ -101,10 +106,11 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.section-button-wrap:hover,
+.section-button-wrap:hover {
+  background-color: #404bbf;
+}
 .section-button-wrap:focus {
   background-color: #404bbf;
 }
@@ -132,7 +138,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.header {
+.header-section {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
