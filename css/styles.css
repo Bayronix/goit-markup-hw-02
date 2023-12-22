@@ -182,15 +182,13 @@ li {
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  /* 111.111% */
+  line-height: 1.1111; /* Замість 40px */
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-.Porfolio-position {
+.Portfolio-position {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -198,10 +196,8 @@ li {
 
 .Start-apps {
   width: calc(33.33% - 20px);
-  /* Розрахована ширина для 3-х елементів в ряду і з відступом між ними */
   box-sizing: border-box;
   justify-content: center;
-  /* Відстань між зображенням та текстом */
 }
 
 /* Footer */
