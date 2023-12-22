@@ -64,15 +64,15 @@ body {
 
 /* Вирівнювання тексту у списку */
 
-.link_adress {
+.address_wrap_add {
   font-style: normal;
 }
 
-.link_adress:hover {
+.address_wrap_add:hover {
   color: #404bbf;
 }
 
-.link_adress:focus {
+.address_wrap_add:focus {
   color: #404bbf;
 }
 
