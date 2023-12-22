@@ -45,35 +45,22 @@ body {
   color: #404bbf;
 }
 
-.address_wrap_add {
-  font-style: normal;
-}
-.contact-link {
-  color: #434455;
+/* Стилі для основного тексту посилань у блоку address */
+.address_wrap_add .contact-link {
+  font-family: Roboto;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: color 0.3s ease;
   text-decoration: none;
+  color: #434455; /* Колір тексту */
+  transition: color 0.3s ease; /* Плавний перехід кольору */
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
-/* Вирівнювання тексту у списку */
-
-.address_wrap_add {
-  font-style: normal;
-}
-
-.address_wrap_add:hover {
-  color: #404bbf;
-}
-
-.address_wrap_add:focus {
-  color: #404bbf;
+/* Стилі для тексту посилань при наведенні миші у блоку address */
+.address_wrap_add:hover .contact-link,
+.address_wrap_add:focus .contact-link {
+  color: #404bbf; /* Колір тексту при наведенні або фокусі */
 }
 
 /* Section-1 */
