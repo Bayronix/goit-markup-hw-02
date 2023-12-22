@@ -57,8 +57,8 @@ body {
   text-decoration: none;
 }
 
-.wrap_add .contact-link a:hover,
-.wrap_add .contact-link a:focus {
+.contact-link a:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
